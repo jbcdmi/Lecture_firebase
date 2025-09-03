@@ -2,4 +2,5 @@
     <string name="app_name">Lecture_firebase</string>
     <string name="title_activity_register_page">RegisterPage</string>
     <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_realtime_lecture">RealtimeLecture</string>
 </resources>

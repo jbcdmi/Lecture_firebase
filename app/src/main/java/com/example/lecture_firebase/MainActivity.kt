@@ -8,7 +8,9 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
@@ -23,6 +25,8 @@ import androidx.credentials.exceptions.ClearCredentialException
 import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
 import com.bumptech.glide.integration.compose.GlideImage
+import com.example.lecture_firebase.Auth.LoginPage
+import com.example.lecture_firebase.RealTimeDatabase.RealtimeLecture
 import com.example.lecture_firebase.ui.theme.Lecture_firebaseTheme
 import com.google.firebase.Firebase
 import com.google.firebase.auth.auth
@@ -61,6 +65,12 @@ class MainActivity : ComponentActivity() {
 
                         }) {
                             Text("logout")
+                        }
+                        Spacer(modifier = Modifier.height(50.dp))
+                        Button(onClick = {
+                           startActivity(Intent(this@MainActivity, RealtimeLecture::class.java))
+                        }) {
+                            Text("Realtime Database")
                         }
                     }
                 }

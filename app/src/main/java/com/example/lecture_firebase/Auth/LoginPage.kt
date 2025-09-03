@@ -1,4 +1,4 @@
-package com.example.lecture_firebase
+package com.example.lecture_firebase.Auth
 
 import android.content.Intent
 import android.os.Bundle
@@ -30,6 +30,8 @@ import androidx.credentials.CustomCredential
 import androidx.credentials.GetCredentialRequest
 import androidx.credentials.exceptions.GetCredentialException
 import androidx.lifecycle.lifecycleScope
+import com.example.lecture_firebase.MainActivity
+import com.example.lecture_firebase.R
 import com.example.lecture_firebase.ui.theme.Lecture_firebaseTheme
 import com.google.android.libraries.identity.googleid.GetGoogleIdOption
 import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential

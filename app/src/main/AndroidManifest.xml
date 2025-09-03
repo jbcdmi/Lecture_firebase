@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lecture_firebase">
         <activity
-            android:name=".LoginPage"
+            android:name=".Auth.LoginPage"
             android:exported="true"
             android:label="@string/title_activity_login_page"
             android:theme="@style/Theme.Lecture_firebase">
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterPage"
+            android:name=".Auth.RegisterPage"
             android:exported="false"
             android:label="@string/title_activity_register_page"
             android:theme="@style/Theme.Lecture_firebase" />
@@ -30,7 +30,12 @@
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Lecture_firebase" />'
+            android:theme="@style/Theme.Lecture_firebase" />
+        <activity
+            android:name=".RealTimeDatabase.RealtimeLecture"
+            android:exported="true"
+            android:label="@string/title_activity_realtime_lecture"
+            android:theme="@style/Theme.Lecture_firebase" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.lecture_firebase
+package com.example.lecture_firebase.Auth
 
 import android.os.Bundle
 import android.util.Log

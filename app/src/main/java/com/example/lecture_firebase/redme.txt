@@ -1,0 +1,7 @@
+Database
+1. SQl (table -> row, column)
+2. NO-SQL (document -> key, value)
+
+firebase
+-> firestore
+-> realtime database
