@@ -8,3 +8,23 @@ firebase
 
 ==========>  Test
 ==========>  Test2
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Google ads
+
+-> Earning
+1. sell
+2. Deploy (playstore, amezon)
+play store -> 25$ Onetime payment
+
+-> ads
+-> paid app
+-> in-app purchase
+
+Admob -> revenue
+-> single internet & device
+-> 21 date -> 2-3 days
+
+-> first 10$  ->  varification code
+-> min 100$
